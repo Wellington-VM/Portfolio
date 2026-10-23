@@ -6,7 +6,7 @@ const projetos = [
     resumo: "Site de divulgação dos meus trabalhos, com design moderno e totalmente responsivo.",
     descricao:
       " Desenvolvimento de um portfólio web responsivo com o objetivo de apresentar projetos, habilidades técnicas e informações profissionais do desenvolvedor. O sistema foi desenvolvido com foco em design moderno, experiência do usuário e organização visual, servindo como ferramenta de apresentação.",
-    capa: "assets/imagens_projeto/card 1.png",
+    capa: "assets/Imagens_projeto/card 1.png",
     tecnologias: ["HTML", "CSS", "Bootstrap", "JavaScript", "AOS.js", "LottieFiles"],
     funcionalidades: [
       "Layout responsivo para celular, tablet e desktop",
@@ -47,12 +47,12 @@ const projetos = [
     midias: [
       {
         tipo: "video",
-        src: "assets/imagens_projeto/SOS/sos.mp4",
-        poster: "assets/imagens_projeto/SOS/capa.png",
+        src: "assets/Imagens_projeto/SOS/sos.mp4",
+        poster: "assets/Imagens_projeto/SOS/capa.png",
         legenda: "Aplicativo em funcionamento",
       },
-      { tipo: "imagem", src: "assets/imagens_projeto/SOS/Wireframe_SOS.png", legenda: "Wireframe inicial" },
-      { tipo: "imagem", src: "assets/imagens_projeto/SOS/Prototipo_SOS.png", legenda: "Prototipagem no Figma" },
+      { tipo: "imagem", src: "assets/Imagens_projeto/SOS/Wireframe_SOS.png", legenda: "Wireframe inicial" },
+      { tipo: "imagem", src: "assets/Imagens_projeto/SOS/Prototipo_SOS.png", legenda: "Prototipagem no Figma" },
     ],
   },
 ];
