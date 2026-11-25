@@ -63,7 +63,7 @@ const projetos = [
     resumo: "Plataforma de Cursos.",
     descricao:
       "Desenvolvido originalmente como projeto de teste de seletiva para integração na empresa Buzzvel, construindo uma página responsiva completa a partir do design no Figma com foco em fidelidade visual, usabilidade e boa performance.",
-    capa: "assets/Imagens_projeto/Luma/Lumacapa.png",
+    capa: "assets/Imagens_projeto/Luma/LumaCapa.png",
     tecnologias: ["Next.js", "TypeScript", "Tailwind CSS"],
     funcionalidades: [
       "Interface fiel ao layout do Figma com layout responsivo para mobile, tablet e desktop.",
@@ -79,7 +79,7 @@ const projetos = [
       {
         tipo: "video",
         src: "assets/Imagens_projeto/Luma/Lumavideo.mp4",
-        poster: "assets/Imagens_projeto/Luma/Lumacapa.png",
+        poster: "assets/Imagens_projeto/Luma/LumaCapa.png",
         legenda: "Site Finalizado",
       },
     ],
