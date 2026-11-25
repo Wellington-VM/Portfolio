@@ -30,7 +30,7 @@ const projetos = [
     titulo: "SOS Serviço",
     resumo: "Plataforma Mobile de Prestação de Serviços.",
     descricao:
-    "Desenvolvido originalmente como projeto acadêmico e expandido para um projeto vitrine de alto padrão em front-end com Ionic e Angular, com forte foco em UI/UX e responsividade. O SOS serviço é um aplicativo mobile focado na conexão entre clientes e profissionais autônomos, permitindo a solicitação de serviços residenciais. Como diferencial de usabilidade, a aplicação conta com alternância dinâmica de papéis (Cliente e Profissional), permitindo visualizar em tempo real tanto a perspectiva de busca e contratação quanto o painel de gerenciamento de tarefas. (Nota: Projeto desenvolvido com dados mockados para demonstração de interface e experiência de usuário).",
+      "Desenvolvido originalmente como projeto acadêmico e expandido para um projeto vitrine de alto padrão em front-end com Ionic e Angular, com forte foco em UI/UX e responsividade. O SOS serviço é um aplicativo mobile focado na conexão entre clientes e profissionais autônomos, permitindo a solicitação de serviços residenciais. Como diferencial de usabilidade, a aplicação conta com alternância dinâmica de papéis (Cliente e Profissional), permitindo visualizar em tempo real tanto a perspectiva de busca e contratação quanto o painel de gerenciamento de tarefas. (Nota: Projeto desenvolvido com dados mockados para demonstração de interface e experiência de usuário).",
     capa: "assets/Imagens_projeto/SOS/capa.png",
     tecnologias: ["Ionic", "HTML", "SCSS", "Angular", "TypeScript"],
     funcionalidades: [
@@ -53,6 +53,35 @@ const projetos = [
       },
       { tipo: "imagem", src: "assets/Imagens_projeto/SOS/Wireframe_SOS.png", legenda: "Wireframe inicial" },
       { tipo: "imagem", src: "assets/Imagens_projeto/SOS/Prototipo_SOS.png", legenda: "Prototipagem no Figma" },
+    ],
+  },
+
+  //PROJETO Luma Test
+  {
+    id: "Luma Test",
+    titulo: "Luma",
+    resumo: "Plataforma de Cursos.",
+    descricao:
+      "Desenvolvido originalmente como projeto de teste de seletiva para integração na empresa Buzzvel, construindo uma página responsiva completa a partir do design no Figma com foco em fidelidade visual, usabilidade e boa performance.",
+    capa: "assets/Imagens_projeto/Luma/Lumacapa.png",
+    tecnologias: ["Next.js", "TypeScript", "Tailwind CSS"],
+    funcionalidades: [
+      "Interface fiel ao layout do Figma com layout responsivo para mobile, tablet e desktop.",
+      "Componentes reutilizáveis e tipados com Next.js (App Router), TypeScript e Tailwind CSS.",
+      "Dados mockados para demonstração",
+    ],
+    links: {
+      demo: "https://luma-challenge-sandy.vercel.app/",
+      codigo: "https://github.com/Wellington-VM/Luma-Challenge",
+      documentacao: null,
+    },
+    midias: [
+      {
+        tipo: "video",
+        src: "assets/Imagens_projeto/Luma/Lumavideo.mp4",
+        poster: "assets/Imagens_projeto/Luma/Lumacapa.png",
+        legenda: "Site Finalizado",
+      },
     ],
   },
 ];

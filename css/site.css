@@ -272,18 +272,18 @@ section {
 }
 
 .icones-habilidades {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  gap: 18px;
+  max-width: 1300px;
   margin: 30px auto;
   padding: 0 20px;
 }
 
 .habilidade-item {
-  background-color: rgb(30, 41, 57, 0.4);
-  width: 100%;
+  background-color: rgba(30, 41, 57, 0.4);
+  width: 135px;
   height: 120px;
   border-radius: 15px;
   display: flex;
@@ -319,7 +319,7 @@ section {
 .texto-habilidades {
   color: white;
   padding-top: 15px;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   text-align: center;
 }
@@ -334,7 +334,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
   gap: 30px;
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 40px auto;
   padding: 0 15px;
 }
